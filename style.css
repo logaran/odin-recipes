@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/80/21-14-052-kitchen.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+body {
+position: relative;
+display: flex;
+margin: 3em auto;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 70%;
+border-radius: 5px;
+padding: 1.5em;
+background-color: rgba(233, 193, 147, 0.336);
+}
+.page-title,.recipe-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+li {
+    width: 100%;
+}
+span {
+ float:right;
+ font-size: small;
+}
+
+h2 {
+    margin: 1em 0 1em 0.5em;
+}
+
+#recipes-list, ul {
+    width: 100%;
+}
+.recipe-item {
+    list-style: none;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+    margin: 0.3em auto;
+    width: 70%;
+    padding: 0.3em;
+    background-color: beige;
+    
+}
+.recipe-link {
+    width: 100;
+    text-decoration: none;
+    color: #050505;
+    transition: margin 400ms ease-in;
+}
+
+.recipe-link:hover {
+    margin-left: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
